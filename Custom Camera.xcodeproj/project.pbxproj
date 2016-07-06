@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02080071D259A07007F3535 /* open2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0207FEF1D259A07007F3535 /* open2.jpg */; };
+		D02080081D259A07007F3535 /* open1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0207FF01D259A07007F3535 /* open1.jpg */; };
+		D02080091D259A07007F3535 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D0207FF11D259A07007F3535 /* Untitled-1.png */; };
+		D020800A1D259A07007F3535 /* Cat.png in Resources */ = {isa = PBXBuildFile; fileRef = D0207FF21D259A07007F3535 /* Cat.png */; };
+		D020800B1D259A07007F3535 /* Move.png in Resources */ = {isa = PBXBuildFile; fileRef = D0207FF31D259A07007F3535 /* Move.png */; };
+		D020800C1D259A07007F3535 /* Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = D0207FF41D259A07007F3535 /* Clear.png */; };
+		D020800D1D259A07007F3535 /* Wooden Floor Light Rug Texture iPhone 5 Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0207FF51D259A07007F3535 /* Wooden Floor Light Rug Texture iPhone 5 Wallpaper.jpg */; };
+		D020800E1D259A07007F3535 /* Vertical Black Wood Beams iPhone 6 Plus HD Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0207FF61D259A07007F3535 /* Vertical Black Wood Beams iPhone 6 Plus HD Wallpaper.jpg */; };
+		D020800F1D259A07007F3535 /* Striped Kitten Legs Wooden Floor iPhone 6 Plus HD Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0207FF71D259A07007F3535 /* Striped Kitten Legs Wooden Floor iPhone 6 Plus HD Wallpaper.jpg */; };
+		D02080101D259A07007F3535 /* Seagulls In London iPhone 6 Plus HD Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0207FF81D259A07007F3535 /* Seagulls In London iPhone 6 Plus HD Wallpaper.jpg */; };
+		D02080111D259A07007F3535 /* Wood.png in Resources */ = {isa = PBXBuildFile; fileRef = D0207FF91D259A07007F3535 /* Wood.png */; };
+		D02080121D259A07007F3535 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D0207FFA1D259A07007F3535 /* logo.png */; };
+		D02080131D259A07007F3535 /* desktop.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0207FFB1D259A07007F3535 /* desktop.jpeg */; };
+		D02080141D259A07007F3535 /* Horizonal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0207FFC1D259A07007F3535 /* Horizonal.jpg */; };
+		D02080151D259A07007F3535 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = D0207FFD1D259A07007F3535 /* checkmark.png */; };
+		D02080161D259A07007F3535 /* checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0207FFE1D259A07007F3535 /* checkmark@3x.png */; };
+		D02080171D259A07007F3535 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0207FFF1D259A07007F3535 /* checkmark@2x.png */; };
+		D02080181D259A07007F3535 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = D02080001D259A07007F3535 /* cross.png */; };
+		D02080191D259A07007F3535 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02080011D259A07007F3535 /* cross@2x.png */; };
+		D020801A1D259A07007F3535 /* cross@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02080021D259A07007F3535 /* cross@3x.png */; };
+		D020801B1D259A07007F3535 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = D02080031D259A07007F3535 /* warning.png */; };
+		D020801C1D259A07007F3535 /* warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02080041D259A07007F3535 /* warning@2x.png */; };
+		D020801D1D259A07007F3535 /* warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02080051D259A07007F3535 /* warning@3x.png */; };
+		D02080221D259A56007F3535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02080201D259A56007F3535 /* ViewController.swift */; };
+		D82847771B1E30E500E8DBC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82847761B1E30E500E8DBC3 /* AppDelegate.swift */; };
+		D828477C1B1E30E500E8DBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D828477A1B1E30E500E8DBC3 /* Main.storyboard */; };
+		D828477E1B1E30E500E8DBC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D828477D1B1E30E500E8DBC3 /* Images.xcassets */; };
+		D82847811B1E30E500E8DBC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D828477F1B1E30E500E8DBC3 /* LaunchScreen.xib */; };
+		D828478D1B1E30E500E8DBC3 /* Custom_CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D828478C1B1E30E500E8DBC3 /* Custom_CameraTests.swift */; };
+		D82847971B1E368E00E8DBC3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82847961B1E368E00E8DBC3 /* CameraViewController.swift */; };
+		D828479B1B1E3DF500E8DBC3 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = D828479A1B1E3DF500E8DBC3 /* beep.wav */; };
+		D828479D1B1E3E7700E8DBC3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D828479C1B1E3E7700E8DBC3 /* AudioToolbox.framework */; };
+		D828479F1B1E46BE00E8DBC3 /* sounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = D828479E1B1E46BE00E8DBC3 /* sounds.plist */; };
+		D82DF5B11B2A18B900F85A23 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DF5AD1B2A188D00F85A23 /* GPUImage.framework */; };
+		D82DF5B31B2A193500F85A23 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D82DF5AD1B2A188D00F85A23 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D82DF5B91B2A3CBD00F85A23 /* lookup_amatorka.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DF5B41B2A3CBD00F85A23 /* lookup_amatorka.png */; };
+		D82DF5BA1B2A3CBD00F85A23 /* lookup_miss_etikate.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DF5B51B2A3CBD00F85A23 /* lookup_miss_etikate.png */; };
+		D82DF5BB1B2A3CBD00F85A23 /* lookup_soft_elegance_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DF5B61B2A3CBD00F85A23 /* lookup_soft_elegance_1.png */; };
+		D82DF5BC1B2A3CBD00F85A23 /* lookup_soft_elegance_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DF5B71B2A3CBD00F85A23 /* lookup_soft_elegance_2.png */; };
+		D82DF5BD1B2A3CBD00F85A23 /* lookup.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DF5B81B2A3CBD00F85A23 /* lookup.png */; };
+		D86CDD1C1B24E03E00B3BBF3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86CDD1B1B24E03E00B3BBF3 /* AssetsLibrary.framework */; };
+		D877571E1B2CBB300042CAA8 /* beep beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = D87757161B2CBB300042CAA8 /* beep beep.wav */; };
+		D877571F1B2CBB300042CAA8 /* beep computer.wav in Resources */ = {isa = PBXBuildFile; fileRef = D87757171B2CBB300042CAA8 /* beep computer.wav */; };
+		D87757201B2CBB300042CAA8 /* beep digital.wav in Resources */ = {isa = PBXBuildFile; fileRef = D87757181B2CBB300042CAA8 /* beep digital.wav */; };
+		D87757211B2CBB300042CAA8 /* beep high.wav in Resources */ = {isa = PBXBuildFile; fileRef = D87757191B2CBB300042CAA8 /* beep high.wav */; };
+		D87757221B2CBB300042CAA8 /* beep ping.wav in Resources */ = {isa = PBXBuildFile; fileRef = D877571A1B2CBB300042CAA8 /* beep ping.wav */; };
+		D87757231B2CBB300042CAA8 /* double horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = D877571B1B2CBB300042CAA8 /* double horn.wav */; };
+		D87757241B2CBB300042CAA8 /* pap.wav in Resources */ = {isa = PBXBuildFile; fileRef = D877571C1B2CBB300042CAA8 /* pap.wav */; };
+		D87757251B2CBB300042CAA8 /* twink.wav in Resources */ = {isa = PBXBuildFile; fileRef = D877571D1B2CBB300042CAA8 /* twink.wav */; };
+		D877572A1B2CC0DB0042CAA8 /* SoundSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87757291B2CC0DB0042CAA8 /* SoundSelectionViewController.swift */; };
+		D8A9FD971B2F3FF700E441D3 /* CameraPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A9FD961B2F3FF700E441D3 /* CameraPreviewController.swift */; };
+		D8B773711B24AB3F00D02809 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B773701B24AB3F00D02809 /* CoreImage.framework */; };
+		D8B773731B24BB2D00D02809 /* FilterDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B773721B24BB2D00D02809 /* FilterDisplayViewController.swift */; };
+		D8B773791B24BEC500D02809 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B773781B24BEC500D02809 /* QuartzCore.framework */; };
+		D8B7737B1B24BECD00D02809 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B7737A1B24BECD00D02809 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D82847871B1E30E500E8DBC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82847691B1E30E500E8DBC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82847701B1E30E500E8DBC3;
+			remoteInfo = "Custom Camera";
+		};
+		D82DF5AA1B2A188D00F85A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82DF5A41B2A188C00F85A23 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		D82DF5AC1B2A188D00F85A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82DF5A41B2A188C00F85A23 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		D82DF5AF1B2A18B400F85A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82DF5A41B2A188C00F85A23 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE209E41943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D82DF5B21B2A191D00F85A23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D82DF5B31B2A193500F85A23 /* GPUImage.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D0207FEF1D259A07007F3535 /* open2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open2.jpg; sourceTree = "<group>"; };
+		D0207FF01D259A07007F3535 /* open1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = open1.jpg; sourceTree = "<group>"; };
+		D0207FF11D259A07007F3535 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
+		D0207FF21D259A07007F3535 /* Cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cat.png; sourceTree = "<group>"; };
+		D0207FF31D259A07007F3535 /* Move.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Move.png; sourceTree = "<group>"; };
+		D0207FF41D259A07007F3535 /* Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clear.png; sourceTree = "<group>"; };
+		D0207FF51D259A07007F3535 /* Wooden Floor Light Rug Texture iPhone 5 Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wooden Floor Light Rug Texture iPhone 5 Wallpaper.jpg"; sourceTree = "<group>"; };
+		D0207FF61D259A07007F3535 /* Vertical Black Wood Beams iPhone 6 Plus HD Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vertical Black Wood Beams iPhone 6 Plus HD Wallpaper.jpg"; sourceTree = "<group>"; };
+		D0207FF71D259A07007F3535 /* Striped Kitten Legs Wooden Floor iPhone 6 Plus HD Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Striped Kitten Legs Wooden Floor iPhone 6 Plus HD Wallpaper.jpg"; sourceTree = "<group>"; };
+		D0207FF81D259A07007F3535 /* Seagulls In London iPhone 6 Plus HD Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Seagulls In London iPhone 6 Plus HD Wallpaper.jpg"; sourceTree = "<group>"; };
+		D0207FF91D259A07007F3535 /* Wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wood.png; sourceTree = "<group>"; };
+		D0207FFA1D259A07007F3535 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D0207FFB1D259A07007F3535 /* desktop.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desktop.jpeg; sourceTree = "<group>"; };
+		D0207FFC1D259A07007F3535 /* Horizonal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Horizonal.jpg; sourceTree = "<group>"; };
+		D0207FFD1D259A07007F3535 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		D0207FFE1D259A07007F3535 /* checkmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@3x.png"; sourceTree = "<group>"; };
+		D0207FFF1D259A07007F3535 /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		D02080001D259A07007F3535 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		D02080011D259A07007F3535 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		D02080021D259A07007F3535 /* cross@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@3x.png"; sourceTree = "<group>"; };
+		D02080031D259A07007F3535 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
+		D02080041D259A07007F3535 /* warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning@2x.png"; sourceTree = "<group>"; };
+		D02080051D259A07007F3535 /* warning@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning@3x.png"; sourceTree = "<group>"; };
+		D02080201D259A56007F3535 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = NatureCapture/ViewController.swift; sourceTree = "<group>"; };
+		D82847711B1E30E500E8DBC3 /* Custom Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82847751B1E30E500E8DBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82847761B1E30E500E8DBC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D828477B1B1E30E500E8DBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D828477D1B1E30E500E8DBC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D82847801B1E30E500E8DBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D82847861B1E30E500E8DBC3 /* Custom CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D828478B1B1E30E500E8DBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D828478C1B1E30E500E8DBC3 /* Custom_CameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_CameraTests.swift; sourceTree = "<group>"; };
+		D82847961B1E368E00E8DBC3 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D828479A1B1E3DF500E8DBC3 /* beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep.wav; sourceTree = "<group>"; };
+		D828479C1B1E3E7700E8DBC3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D828479E1B1E46BE00E8DBC3 /* sounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sounds.plist; sourceTree = "<group>"; };
+		D82DF5A41B2A188C00F85A23 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "Third-Party/GPUImage-master/framework/GPUImage.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		D82DF5B41B2A3CBD00F85A23 /* lookup_amatorka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_amatorka.png; sourceTree = "<group>"; };
+		D82DF5B51B2A3CBD00F85A23 /* lookup_miss_etikate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_miss_etikate.png; sourceTree = "<group>"; };
+		D82DF5B61B2A3CBD00F85A23 /* lookup_soft_elegance_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_soft_elegance_1.png; sourceTree = "<group>"; };
+		D82DF5B71B2A3CBD00F85A23 /* lookup_soft_elegance_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_soft_elegance_2.png; sourceTree = "<group>"; };
+		D82DF5B81B2A3CBD00F85A23 /* lookup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup.png; sourceTree = "<group>"; };
+		D86CDD1B1B24E03E00B3BBF3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D87757161B2CBB300042CAA8 /* beep beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep beep.wav"; sourceTree = "<group>"; };
+		D87757171B2CBB300042CAA8 /* beep computer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep computer.wav"; sourceTree = "<group>"; };
+		D87757181B2CBB300042CAA8 /* beep digital.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep digital.wav"; sourceTree = "<group>"; };
+		D87757191B2CBB300042CAA8 /* beep high.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep high.wav"; sourceTree = "<group>"; };
+		D877571A1B2CBB300042CAA8 /* beep ping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "beep ping.wav"; sourceTree = "<group>"; };
+		D877571B1B2CBB300042CAA8 /* double horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "double horn.wav"; sourceTree = "<group>"; };
+		D877571C1B2CBB300042CAA8 /* pap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pap.wav; sourceTree = "<group>"; };
+		D877571D1B2CBB300042CAA8 /* twink.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = twink.wav; sourceTree = "<group>"; };
+		D87757291B2CC0DB0042CAA8 /* SoundSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundSelectionViewController.swift; sourceTree = "<group>"; };
+		D8A9FD961B2F3FF700E441D3 /* CameraPreviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewController.swift; sourceTree = "<group>"; };
+		D8B773701B24AB3F00D02809 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D8B773721B24BB2D00D02809 /* FilterDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterDisplayViewController.swift; sourceTree = "<group>"; };
+		D8B773781B24BEC500D02809 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D8B7737A1B24BECD00D02809 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D828476E1B1E30E500E8DBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82DF5B11B2A18B900F85A23 /* GPUImage.framework in Frameworks */,
+				D86CDD1C1B24E03E00B3BBF3 /* AssetsLibrary.framework in Frameworks */,
+				D8B7737B1B24BECD00D02809 /* CoreGraphics.framework in Frameworks */,
+				D8B773791B24BEC500D02809 /* QuartzCore.framework in Frameworks */,
+				D8B773711B24AB3F00D02809 /* CoreImage.framework in Frameworks */,
+				D828479D1B1E3E7700E8DBC3 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82847831B1E30E500E8DBC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D02080061D259A07007F3535 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D0207FEF1D259A07007F3535 /* open2.jpg */,
+				D0207FF01D259A07007F3535 /* open1.jpg */,
+				D0207FF11D259A07007F3535 /* Untitled-1.png */,
+				D0207FF21D259A07007F3535 /* Cat.png */,
+				D0207FF31D259A07007F3535 /* Move.png */,
+				D0207FF41D259A07007F3535 /* Clear.png */,
+				D0207FF51D259A07007F3535 /* Wooden Floor Light Rug Texture iPhone 5 Wallpaper.jpg */,
+				D0207FF61D259A07007F3535 /* Vertical Black Wood Beams iPhone 6 Plus HD Wallpaper.jpg */,
+				D0207FF71D259A07007F3535 /* Striped Kitten Legs Wooden Floor iPhone 6 Plus HD Wallpaper.jpg */,
+				D0207FF81D259A07007F3535 /* Seagulls In London iPhone 6 Plus HD Wallpaper.jpg */,
+				D0207FF91D259A07007F3535 /* Wood.png */,
+				D0207FFA1D259A07007F3535 /* logo.png */,
+				D0207FFB1D259A07007F3535 /* desktop.jpeg */,
+				D0207FFC1D259A07007F3535 /* Horizonal.jpg */,
+				D0207FFD1D259A07007F3535 /* checkmark.png */,
+				D0207FFE1D259A07007F3535 /* checkmark@3x.png */,
+				D0207FFF1D259A07007F3535 /* checkmark@2x.png */,
+				D02080001D259A07007F3535 /* cross.png */,
+				D02080011D259A07007F3535 /* cross@2x.png */,
+				D02080021D259A07007F3535 /* cross@3x.png */,
+				D02080031D259A07007F3535 /* warning.png */,
+				D02080041D259A07007F3535 /* warning@2x.png */,
+				D02080051D259A07007F3535 /* warning@3x.png */,
+			);
+			name = images;
+			path = ../NatureCapture;
+			sourceTree = "<group>";
+		};
+		D02080211D259A56007F3535 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D02080201D259A56007F3535 /* ViewController.swift */,
+			);
+			name = Menu;
+			path = ../../NatureCapture;
+			sourceTree = "<group>";
+		};
+		D82847681B1E30E500E8DBC3 = {
+			isa = PBXGroup;
+			children = (
+				D82847731B1E30E500E8DBC3 /* Custom Camera */,
+				D82847891B1E30E500E8DBC3 /* Custom CameraTests */,
+				D82847721B1E30E500E8DBC3 /* Products */,
+				D02080061D259A07007F3535 /* images */,
+			);
+			sourceTree = "<group>";
+		};
+		D82847721B1E30E500E8DBC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82847711B1E30E500E8DBC3 /* Custom Camera.app */,
+				D82847861B1E30E500E8DBC3 /* Custom CameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82847731B1E30E500E8DBC3 /* Custom Camera */ = {
+			isa = PBXGroup;
+			children = (
+				D877572B1B2CC8B40042CAA8 /* ViewControllers */,
+				D82DF5AE1B2A189500F85A23 /* Frameworks */,
+				D82DF5A31B2A188400F85A23 /* Third-Party */,
+				D8B773741B24BD1E00D02809 /* AppDelegate */,
+				D877572C1B2CC8C30042CAA8 /* UI */,
+				D82847741B1E30E500E8DBC3 /* Supporting Files */,
+			);
+			path = "Custom Camera";
+			sourceTree = "<group>";
+		};
+		D82847741B1E30E500E8DBC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D82847751B1E30E500E8DBC3 /* Info.plist */,
+				D877572E1B2CC8E30042CAA8 /* Filter Lookups */,
+				D877572D1B2CC8D20042CAA8 /* Sounds */,
+				D828477D1B1E30E500E8DBC3 /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D82847891B1E30E500E8DBC3 /* Custom CameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				D828478C1B1E30E500E8DBC3 /* Custom_CameraTests.swift */,
+				D828478A1B1E30E500E8DBC3 /* Supporting Files */,
+			);
+			path = "Custom CameraTests";
+			sourceTree = "<group>";
+		};
+		D828478A1B1E30E500E8DBC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D828478B1B1E30E500E8DBC3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D82DF5A31B2A188400F85A23 /* Third-Party */ = {
+			isa = PBXGroup;
+			children = (
+				D82DF5A41B2A188C00F85A23 /* GPUImage.xcodeproj */,
+			);
+			name = "Third-Party";
+			sourceTree = "<group>";
+		};
+		D82DF5A51B2A188C00F85A23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82DF5AB1B2A188D00F85A23 /* libGPUImage.a */,
+				D82DF5AD1B2A188D00F85A23 /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82DF5AE1B2A189500F85A23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D86CDD1B1B24E03E00B3BBF3 /* AssetsLibrary.framework */,
+				D8B7737A1B24BECD00D02809 /* CoreGraphics.framework */,
+				D8B773781B24BEC500D02809 /* QuartzCore.framework */,
+				D8B773701B24AB3F00D02809 /* CoreImage.framework */,
+				D828479C1B1E3E7700E8DBC3 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D87757281B2CC0AB0042CAA8 /* SoundSelection */ = {
+			isa = PBXGroup;
+			children = (
+				D87757291B2CC0DB0042CAA8 /* SoundSelectionViewController.swift */,
+			);
+			name = SoundSelection;
+			sourceTree = "<group>";
+		};
+		D877572B1B2CC8B40042CAA8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D02080211D259A56007F3535 /* Menu */,
+				D8A9FD951B2F3FD900E441D3 /* CameraPreview */,
+				D87757281B2CC0AB0042CAA8 /* SoundSelection */,
+				D8B773751B24BD2B00D02809 /* Camera */,
+				D8B773761B24BD3700D02809 /* FilterDisplay */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D877572C1B2CC8C30042CAA8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D828477F1B1E30E500E8DBC3 /* LaunchScreen.xib */,
+				D828477A1B1E30E500E8DBC3 /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D877572D1B2CC8D20042CAA8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D828479E1B1E46BE00E8DBC3 /* sounds.plist */,
+				D87757161B2CBB300042CAA8 /* beep beep.wav */,
+				D87757171B2CBB300042CAA8 /* beep computer.wav */,
+				D87757181B2CBB300042CAA8 /* beep digital.wav */,
+				D87757191B2CBB300042CAA8 /* beep high.wav */,
+				D877571A1B2CBB300042CAA8 /* beep ping.wav */,
+				D828479A1B1E3DF500E8DBC3 /* beep.wav */,
+				D877571B1B2CBB300042CAA8 /* double horn.wav */,
+				D877571C1B2CBB300042CAA8 /* pap.wav */,
+				D877571D1B2CBB300042CAA8 /* twink.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		D877572E1B2CC8E30042CAA8 /* Filter Lookups */ = {
+			isa = PBXGroup;
+			children = (
+				D82DF5B41B2A3CBD00F85A23 /* lookup_amatorka.png */,
+				D82DF5B51B2A3CBD00F85A23 /* lookup_miss_etikate.png */,
+				D82DF5B61B2A3CBD00F85A23 /* lookup_soft_elegance_1.png */,
+				D82DF5B71B2A3CBD00F85A23 /* lookup_soft_elegance_2.png */,
+				D82DF5B81B2A3CBD00F85A23 /* lookup.png */,
+			);
+			name = "Filter Lookups";
+			sourceTree = "<group>";
+		};
+		D8A9FD951B2F3FD900E441D3 /* CameraPreview */ = {
+			isa = PBXGroup;
+			children = (
+				D8A9FD961B2F3FF700E441D3 /* CameraPreviewController.swift */,
+			);
+			name = CameraPreview;
+			sourceTree = "<group>";
+		};
+		D8B773741B24BD1E00D02809 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D82847761B1E30E500E8DBC3 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D8B773751B24BD2B00D02809 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				D82847961B1E368E00E8DBC3 /* CameraViewController.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		D8B773761B24BD3700D02809 /* FilterDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				D8B773721B24BB2D00D02809 /* FilterDisplayViewController.swift */,
+			);
+			name = FilterDisplay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D82847701B1E30E500E8DBC3 /* Custom Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82847901B1E30E500E8DBC3 /* Build configuration list for PBXNativeTarget "Custom Camera" */;
+			buildPhases = (
+				D828476D1B1E30E500E8DBC3 /* Sources */,
+				D828476E1B1E30E500E8DBC3 /* Frameworks */,
+				D828476F1B1E30E500E8DBC3 /* Resources */,
+				D82DF5B21B2A191D00F85A23 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D82DF5B01B2A18B400F85A23 /* PBXTargetDependency */,
+			);
+			name = "Custom Camera";
+			productName = "Custom Camera";
+			productReference = D82847711B1E30E500E8DBC3 /* Custom Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D82847851B1E30E500E8DBC3 /* Custom CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82847931B1E30E500E8DBC3 /* Build configuration list for PBXNativeTarget "Custom CameraTests" */;
+			buildPhases = (
+				D82847821B1E30E500E8DBC3 /* Sources */,
+				D82847831B1E30E500E8DBC3 /* Frameworks */,
+				D82847841B1E30E500E8DBC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D82847881B1E30E500E8DBC3 /* PBXTargetDependency */,
+			);
+			name = "Custom CameraTests";
+			productName = "Custom CameraTests";
+			productReference = D82847861B1E30E500E8DBC3 /* Custom CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D82847691B1E30E500E8DBC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Seena Studios";
+				TargetAttributes = {
+					D82847701B1E30E500E8DBC3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A25NJ664YH;
+					};
+					D82847851B1E30E500E8DBC3 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A25NJ664YH;
+						TestTargetID = D82847701B1E30E500E8DBC3;
+					};
+				};
+			};
+			buildConfigurationList = D828476C1B1E30E500E8DBC3 /* Build configuration list for PBXProject "Custom Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D82847681B1E30E500E8DBC3;
+			productRefGroup = D82847721B1E30E500E8DBC3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D82DF5A51B2A188C00F85A23 /* Products */;
+					ProjectRef = D82DF5A41B2A188C00F85A23 /* GPUImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D82847701B1E30E500E8DBC3 /* Custom Camera */,
+				D82847851B1E30E500E8DBC3 /* Custom CameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D82DF5AB1B2A188D00F85A23 /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = D82DF5AA1B2A188D00F85A23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D82DF5AD1B2A188D00F85A23 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = D82DF5AC1B2A188D00F85A23 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D828476F1B1E30E500E8DBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D020800A1D259A07007F3535 /* Cat.png in Resources */,
+				D020801C1D259A07007F3535 /* warning@2x.png in Resources */,
+				D020800F1D259A07007F3535 /* Striped Kitten Legs Wooden Floor iPhone 6 Plus HD Wallpaper.jpg in Resources */,
+				D828479F1B1E46BE00E8DBC3 /* sounds.plist in Resources */,
+				D877571E1B2CBB300042CAA8 /* beep beep.wav in Resources */,
+				D828479B1B1E3DF500E8DBC3 /* beep.wav in Resources */,
+				D828477C1B1E30E500E8DBC3 /* Main.storyboard in Resources */,
+				D87757221B2CBB300042CAA8 /* beep ping.wav in Resources */,
+				D877571F1B2CBB300042CAA8 /* beep computer.wav in Resources */,
+				D02080151D259A07007F3535 /* checkmark.png in Resources */,
+				D020801B1D259A07007F3535 /* warning.png in Resources */,
+				D82DF5B91B2A3CBD00F85A23 /* lookup_amatorka.png in Resources */,
+				D82847811B1E30E500E8DBC3 /* LaunchScreen.xib in Resources */,
+				D87757251B2CBB300042CAA8 /* twink.wav in Resources */,
+				D02080191D259A07007F3535 /* cross@2x.png in Resources */,
+				D020800B1D259A07007F3535 /* Move.png in Resources */,
+				D02080091D259A07007F3535 /* Untitled-1.png in Resources */,
+				D82DF5BC1B2A3CBD00F85A23 /* lookup_soft_elegance_2.png in Resources */,
+				D020801A1D259A07007F3535 /* cross@3x.png in Resources */,
+				D02080161D259A07007F3535 /* checkmark@3x.png in Resources */,
+				D82DF5BB1B2A3CBD00F85A23 /* lookup_soft_elegance_1.png in Resources */,
+				D87757241B2CBB300042CAA8 /* pap.wav in Resources */,
+				D02080181D259A07007F3535 /* cross.png in Resources */,
+				D020800D1D259A07007F3535 /* Wooden Floor Light Rug Texture iPhone 5 Wallpaper.jpg in Resources */,
+				D82DF5BD1B2A3CBD00F85A23 /* lookup.png in Resources */,
+				D02080141D259A07007F3535 /* Horizonal.jpg in Resources */,
+				D02080131D259A07007F3535 /* desktop.jpeg in Resources */,
+				D02080101D259A07007F3535 /* Seagulls In London iPhone 6 Plus HD Wallpaper.jpg in Resources */,
+				D828477E1B1E30E500E8DBC3 /* Images.xcassets in Resources */,
+				D020801D1D259A07007F3535 /* warning@3x.png in Resources */,
+				D020800E1D259A07007F3535 /* Vertical Black Wood Beams iPhone 6 Plus HD Wallpaper.jpg in Resources */,
+				D87757211B2CBB300042CAA8 /* beep high.wav in Resources */,
+				D87757231B2CBB300042CAA8 /* double horn.wav in Resources */,
+				D02080111D259A07007F3535 /* Wood.png in Resources */,
+				D020800C1D259A07007F3535 /* Clear.png in Resources */,
+				D02080071D259A07007F3535 /* open2.jpg in Resources */,
+				D02080121D259A07007F3535 /* logo.png in Resources */,
+				D87757201B2CBB300042CAA8 /* beep digital.wav in Resources */,
+				D82DF5BA1B2A3CBD00F85A23 /* lookup_miss_etikate.png in Resources */,
+				D02080081D259A07007F3535 /* open1.jpg in Resources */,
+				D02080171D259A07007F3535 /* checkmark@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82847841B1E30E500E8DBC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D828476D1B1E30E500E8DBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B773731B24BB2D00D02809 /* FilterDisplayViewController.swift in Sources */,
+				D82847771B1E30E500E8DBC3 /* AppDelegate.swift in Sources */,
+				D8A9FD971B2F3FF700E441D3 /* CameraPreviewController.swift in Sources */,
+				D02080221D259A56007F3535 /* ViewController.swift in Sources */,
+				D877572A1B2CC0DB0042CAA8 /* SoundSelectionViewController.swift in Sources */,
+				D82847971B1E368E00E8DBC3 /* CameraViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82847821B1E30E500E8DBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D828478D1B1E30E500E8DBC3 /* Custom_CameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D82847881B1E30E500E8DBC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82847701B1E30E500E8DBC3 /* Custom Camera */;
+			targetProxy = D82847871B1E30E500E8DBC3 /* PBXContainerItemProxy */;
+		};
+		D82DF5B01B2A18B400F85A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImageFramework;
+			targetProxy = D82DF5AF1B2A18B400F85A23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D828477A1B1E30E500E8DBC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D828477B1B1E30E500E8DBC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D828477F1B1E30E500E8DBC3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82847801B1E30E500E8DBC3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D828478E1B1E30E500E8DBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tomer Aharoni (RT8MA644EX)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D828478F1B1E30E500E8DBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tomer Aharoni (RT8MA644EX)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D82847911B1E30E500E8DBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Custom Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomeraharoni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D82847921B1E30E500E8DBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Custom Camera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomeraharoni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D82847941B1E30E500E8DBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Custom CameraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seenastudios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Custom Camera.app/Custom Camera";
+			};
+			name = Debug;
+		};
+		D82847951B1E30E500E8DBC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Custom CameraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seenastudios.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Custom Camera.app/Custom Camera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D828476C1B1E30E500E8DBC3 /* Build configuration list for PBXProject "Custom Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D828478E1B1E30E500E8DBC3 /* Debug */,
+				D828478F1B1E30E500E8DBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82847901B1E30E500E8DBC3 /* Build configuration list for PBXNativeTarget "Custom Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82847911B1E30E500E8DBC3 /* Debug */,
+				D82847921B1E30E500E8DBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82847931B1E30E500E8DBC3 /* Build configuration list for PBXNativeTarget "Custom CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82847941B1E30E500E8DBC3 /* Debug */,
+				D82847951B1E30E500E8DBC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D82847691B1E30E500E8DBC3 /* Project object */;
+}
