@@ -19,7 +19,7 @@ class SoundSelectionViewController: UICollectionViewController {
         // self.clearsSelectionOnViewWillAppear = false
 
         // Do any additional setup after loading the view.
-        sounds = NSArray(contentsOfFile: NSBundle.mainBundle().pathForResource("sounds", ofType: "plist")!)
+        sounds = NSArray(contentsOfFile: Bundle.main.path(forResource: "sounds", ofType: "plist")!)
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,30 +39,30 @@ class SoundSelectionViewController: UICollectionViewController {
 
     // MARK: UICollectionViewDataSource
 
-    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+    override func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
     }
 
 
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return sounds.count
     }
 
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("ID_SOUND_CELL", forIndexPath: indexPath) as! SoundCell
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ID_SOUND_CELL", for: indexPath) as! SoundCell
 
         let soundName: String = (sounds[indexPath.row] as! String)
         
         cell.soundLabel.text = soundName
         
 
-        if  soundName == NSUserDefaults.standardUserDefaults().stringForKey("soundName")
+        if  soundName == UserDefaults.standard.string(forKey: "soundName")
         {
-            cell.soundLabel.textColor = UIColor.blueColor()
+            cell.soundLabel.textColor = UIColor.blue
         }
         else
         {
-            cell.soundLabel.textColor = UIColor.blackColor()
+            cell.soundLabel.textColor = UIColor.black
         }
         // Configure the cell
         
@@ -73,11 +73,11 @@ class SoundSelectionViewController: UICollectionViewController {
     // MARK: UICollectionViewDelegate
 
     
-    override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        NSUserDefaults.standardUserDefaults().setObject(sounds[indexPath.row], forKey: "soundName")
-        NSUserDefaults.standardUserDefaults().synchronize()
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        UserDefaults.standard.set(sounds[indexPath.row], forKey: "soundName")
+        UserDefaults.standard.synchronize()
         
-        self.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
     }
 
 

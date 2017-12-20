@@ -17,7 +17,7 @@ class CameraPreviewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         imgPhotoPreivew.image = imgPhoto
     }
 
@@ -28,7 +28,7 @@ class CameraPreviewController: UIViewController {
     
     @IBAction func cancel()
     {
-        self.navigationController?.popViewControllerAnimated(true)
+        self.navigationController?.popViewController(animated: true)
     }
     
     @IBAction func save()
@@ -38,11 +38,11 @@ class CameraPreviewController: UIViewController {
         if let myImage = imgPhotoPreivew.image
         {
             
-            let objectsToShare = [textToShare, myImage,]
+            let objectsToShare = [textToShare, myImage,] as [Any]
             
             let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
             
-            self.presentViewController(activityVC, animated: true, completion: nil)
+            self.present(activityVC, animated: true, completion: nil)
     
             }
     

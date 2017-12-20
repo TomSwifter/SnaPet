@@ -43,6 +43,10 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key></key>
+	<string></string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app must use your device camera in order to operate</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 </dict>

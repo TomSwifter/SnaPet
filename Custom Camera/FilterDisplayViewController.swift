@@ -11,7 +11,7 @@ import GPUImage
 
 protocol FilterDisplayViewControllerDelegate
 {
-    func didFinishSelectingFilter(isClearFilter: Bool, selectedFilter: GPUImageOutput) -> Void
+    func didFinishSelectingFilter(_ isClearFilter: Bool, selectedFilter: GPUImageOutput) -> Void
 }
 
 class FilterDisplayViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
@@ -94,19 +94,19 @@ class FilterDisplayViewController: UIViewController, UICollectionViewDelegate, U
         // Dispose of any resources that can be recreated.
     }
     
-    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize
     {
         return CGSize(width: self.view.bounds.size.width / 2 - 20, height: self.view.bounds.size.width / 2 - 20)
     }
     
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
     {
         return 17
     }
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
-         let filterDisplayCell: FilterDisplayCollectionCell! = collectionView.dequeueReusableCellWithReuseIdentifier("ID_FILTER_CELL", forIndexPath: indexPath) as? FilterDisplayCollectionCell
+         let filterDisplayCell: FilterDisplayCollectionCell! = collectionView.dequeueReusableCell(withReuseIdentifier: "ID_FILTER_CELL", for: indexPath) as? FilterDisplayCollectionCell
         
         let filter = filters[indexPath.row]
         camera.addTarget(filter as! GPUImageInput)
@@ -118,7 +118,7 @@ class FilterDisplayViewController: UIViewController, UICollectionViewDelegate, U
         return filterDisplayCell
     }
     
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         var isClearFilter: Bool = true
         if indexPath.row != 0
         {
@@ -127,11 +127,11 @@ class FilterDisplayViewController: UIViewController, UICollectionViewDelegate, U
         
         camera.removeAllTargets()
         delegate?.didFinishSelectingFilter(isClearFilter, selectedFilter: filters[indexPath.row])
-        self.presentingViewController?.dismissViewControllerAnimated(true, completion: nil)
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
         
     }
     
-    func collectionView(collectionView: UICollectionView, didEndDisplayingCell cell: UICollectionViewCell, forItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         let filterDisplayCell = cell as? FilterDisplayCollectionCell
         filterDisplayCell?.filter?.removeAllTargets()
     }

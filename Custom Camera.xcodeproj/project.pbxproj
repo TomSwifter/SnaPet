@@ -31,10 +31,14 @@
 		D020801C1D259A07007F3535 /* warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02080041D259A07007F3535 /* warning@2x.png */; };
 		D020801D1D259A07007F3535 /* warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D02080051D259A07007F3535 /* warning@3x.png */; };
 		D02080221D259A56007F3535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02080201D259A56007F3535 /* ViewController.swift */; };
+		D0B3B09A1E19A0FD009876D8 /* Dogs Barking.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0B3B0971E19A0FD009876D8 /* Dogs Barking.wav */; };
+		D0B3B09B1E19A0FD009876D8 /* High Pitch.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0B3B0981E19A0FD009876D8 /* High Pitch.wav */; };
+		D0B3B09C1E19A0FD009876D8 /* Neighborhood Dogs Barking.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0B3B0991E19A0FD009876D8 /* Neighborhood Dogs Barking.wav */; };
+		D0B3B09E1E1BC9FD009876D8 /* Special Noise.wav in Resources */ = {isa = PBXBuildFile; fileRef = D0B3B09D1E1BC9FD009876D8 /* Special Noise.wav */; };
+		D0B3B0A11E1E493A009876D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B3B0A01E1E493A009876D8 /* LaunchScreen.xib */; };
 		D82847771B1E30E500E8DBC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82847761B1E30E500E8DBC3 /* AppDelegate.swift */; };
 		D828477C1B1E30E500E8DBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D828477A1B1E30E500E8DBC3 /* Main.storyboard */; };
 		D828477E1B1E30E500E8DBC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D828477D1B1E30E500E8DBC3 /* Images.xcassets */; };
-		D82847811B1E30E500E8DBC3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D828477F1B1E30E500E8DBC3 /* LaunchScreen.xib */; };
 		D828478D1B1E30E500E8DBC3 /* Custom_CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D828478C1B1E30E500E8DBC3 /* Custom_CameraTests.swift */; };
 		D82847971B1E368E00E8DBC3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82847961B1E368E00E8DBC3 /* CameraViewController.swift */; };
 		D828479B1B1E3DF500E8DBC3 /* beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = D828479A1B1E3DF500E8DBC3 /* beep.wav */; };
@@ -133,12 +137,16 @@
 		D02080041D259A07007F3535 /* warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning@2x.png"; sourceTree = "<group>"; };
 		D02080051D259A07007F3535 /* warning@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning@3x.png"; sourceTree = "<group>"; };
 		D02080201D259A56007F3535 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = NatureCapture/ViewController.swift; sourceTree = "<group>"; };
+		D0B3B0971E19A0FD009876D8 /* Dogs Barking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Dogs Barking.wav"; sourceTree = "<group>"; };
+		D0B3B0981E19A0FD009876D8 /* High Pitch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "High Pitch.wav"; sourceTree = "<group>"; };
+		D0B3B0991E19A0FD009876D8 /* Neighborhood Dogs Barking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Neighborhood Dogs Barking.wav"; sourceTree = "<group>"; };
+		D0B3B09D1E1BC9FD009876D8 /* Special Noise.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Special Noise.wav"; sourceTree = "<group>"; };
+		D0B3B0A01E1E493A009876D8 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		D82847711B1E30E500E8DBC3 /* Custom Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82847751B1E30E500E8DBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D82847761B1E30E500E8DBC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D828477B1B1E30E500E8DBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D828477D1B1E30E500E8DBC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D82847801B1E30E500E8DBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D82847861B1E30E500E8DBC3 /* Custom CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D828478B1B1E30E500E8DBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D828478C1B1E30E500E8DBC3 /* Custom_CameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_CameraTests.swift; sourceTree = "<group>"; };
@@ -345,7 +353,7 @@
 		D877572C1B2CC8C30042CAA8 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				D828477F1B1E30E500E8DBC3 /* LaunchScreen.xib */,
+				D0B3B0A01E1E493A009876D8 /* LaunchScreen.xib */,
 				D828477A1B1E30E500E8DBC3 /* Main.storyboard */,
 			);
 			name = UI;
@@ -354,9 +362,13 @@
 		D877572D1B2CC8D20042CAA8 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				D0B3B0971E19A0FD009876D8 /* Dogs Barking.wav */,
+				D0B3B0981E19A0FD009876D8 /* High Pitch.wav */,
+				D0B3B0991E19A0FD009876D8 /* Neighborhood Dogs Barking.wav */,
 				D828479E1B1E46BE00E8DBC3 /* sounds.plist */,
 				D87757161B2CBB300042CAA8 /* beep beep.wav */,
 				D87757171B2CBB300042CAA8 /* beep computer.wav */,
+				D0B3B09D1E1BC9FD009876D8 /* Special Noise.wav */,
 				D87757181B2CBB300042CAA8 /* beep digital.wav */,
 				D87757191B2CBB300042CAA8 /* beep high.wav */,
 				D877571A1B2CBB300042CAA8 /* beep ping.wav */,
@@ -461,15 +473,17 @@
 				LastSwiftMigration = 0730;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Seena Studios";
+				ORGANIZATIONNAME = "Tomer Aharoni";
 				TargetAttributes = {
 					D82847701B1E30E500E8DBC3 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = A25NJ664YH;
+						LastSwiftMigration = 0820;
 					};
 					D82847851B1E30E500E8DBC3 = {
 						CreatedOnToolsVersion = 6.3.1;
 						DevelopmentTeam = A25NJ664YH;
+						LastSwiftMigration = 0820;
 						TestTargetID = D82847701B1E30E500E8DBC3;
 					};
 				};
@@ -533,12 +547,13 @@
 				D02080151D259A07007F3535 /* checkmark.png in Resources */,
 				D020801B1D259A07007F3535 /* warning.png in Resources */,
 				D82DF5B91B2A3CBD00F85A23 /* lookup_amatorka.png in Resources */,
-				D82847811B1E30E500E8DBC3 /* LaunchScreen.xib in Resources */,
 				D87757251B2CBB300042CAA8 /* twink.wav in Resources */,
 				D02080191D259A07007F3535 /* cross@2x.png in Resources */,
 				D020800B1D259A07007F3535 /* Move.png in Resources */,
+				D0B3B09A1E19A0FD009876D8 /* Dogs Barking.wav in Resources */,
 				D02080091D259A07007F3535 /* Untitled-1.png in Resources */,
 				D82DF5BC1B2A3CBD00F85A23 /* lookup_soft_elegance_2.png in Resources */,
+				D0B3B09E1E1BC9FD009876D8 /* Special Noise.wav in Resources */,
 				D020801A1D259A07007F3535 /* cross@3x.png in Resources */,
 				D02080161D259A07007F3535 /* checkmark@3x.png in Resources */,
 				D82DF5BB1B2A3CBD00F85A23 /* lookup_soft_elegance_1.png in Resources */,
@@ -547,6 +562,7 @@
 				D020800D1D259A07007F3535 /* Wooden Floor Light Rug Texture iPhone 5 Wallpaper.jpg in Resources */,
 				D82DF5BD1B2A3CBD00F85A23 /* lookup.png in Resources */,
 				D02080141D259A07007F3535 /* Horizonal.jpg in Resources */,
+				D0B3B09B1E19A0FD009876D8 /* High Pitch.wav in Resources */,
 				D02080131D259A07007F3535 /* desktop.jpeg in Resources */,
 				D02080101D259A07007F3535 /* Seagulls In London iPhone 6 Plus HD Wallpaper.jpg in Resources */,
 				D828477E1B1E30E500E8DBC3 /* Images.xcassets in Resources */,
@@ -556,11 +572,13 @@
 				D87757231B2CBB300042CAA8 /* double horn.wav in Resources */,
 				D02080111D259A07007F3535 /* Wood.png in Resources */,
 				D020800C1D259A07007F3535 /* Clear.png in Resources */,
+				D0B3B0A11E1E493A009876D8 /* LaunchScreen.xib in Resources */,
 				D02080071D259A07007F3535 /* open2.jpg in Resources */,
 				D02080121D259A07007F3535 /* logo.png in Resources */,
 				D87757201B2CBB300042CAA8 /* beep digital.wav in Resources */,
 				D82DF5BA1B2A3CBD00F85A23 /* lookup_miss_etikate.png in Resources */,
 				D02080081D259A07007F3535 /* open1.jpg in Resources */,
+				D0B3B09C1E19A0FD009876D8 /* Neighborhood Dogs Barking.wav in Resources */,
 				D02080171D259A07007F3535 /* checkmark@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,14 +638,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D828477F1B1E30E500E8DBC3 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D82847801B1E30E500E8DBC3 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -668,7 +678,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -707,7 +717,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -721,11 +731,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A25NJ664YH;
 				INFOPLIST_FILE = "Custom Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomeraharoni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -735,11 +748,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A25NJ664YH;
 				INFOPLIST_FILE = "Custom Camera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomeraharoni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -762,6 +778,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.seenastudios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Custom Camera.app/Custom Camera";
 			};
 			name = Debug;
@@ -781,6 +798,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.seenastudios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Custom Camera.app/Custom Camera";
 			};
 			name = Release;

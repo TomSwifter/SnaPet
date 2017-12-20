@@ -24,21 +24,21 @@ class CameraViewController: UIViewController, FilterDisplayViewControllerDelegat
         // Do any additional setup after loading the view.
     }
     
-    override func viewWillAppear(animated: Bool)
+    override func viewWillAppear(_ animated: Bool)
     {
         if !setup
         {
             cameraPreview.fillMode = kGPUImageFillModePreserveAspectRatioAndFill;
             
-            camera = GPUImageStillCamera(sessionPreset: AVCaptureSessionPresetPhoto, cameraPosition: AVCaptureDevicePosition.Back);
-            camera.outputImageOrientation = UIInterfaceOrientation.Portrait;
+            camera = GPUImageStillCamera(sessionPreset: AVCaptureSessionPresetPhoto, cameraPosition: AVCaptureDevicePosition.back);
+            camera.outputImageOrientation = UIInterfaceOrientation.portrait;
             camera.horizontallyMirrorFrontFacingCamera = true
             
             filter = GPUImageBrightnessFilter();
             filter.brightness = 0.0
             camera.addTarget(filter);
             filter.addTarget(cameraPreview)
-            camera.startCameraCapture()
+            camera.startCapture()
             
             setup = true
             
@@ -49,6 +49,7 @@ class CameraViewController: UIViewController, FilterDisplayViewControllerDelegat
         camera.resumeCameraCapture()
         
     }
+    
     
     func setupFlash()
     {
@@ -62,14 +63,14 @@ class CameraViewController: UIViewController, FilterDisplayViewControllerDelegat
             }
             if error == nil
             {
-                camera.inputCamera.flashMode = AVCaptureFlashMode.Auto
-                flashButton.setTitle("Auto", forState: UIControlState.Normal)
+                camera.inputCamera.flashMode = AVCaptureFlashMode.auto
+                flashButton.setTitle("Auto", for: UIControlState())
             }
             camera.inputCamera.unlockForConfiguration()
         }
         else
         {
-            flashButton.setTitle("Off", forState: UIControlState.Normal)
+            flashButton.setTitle("Off", for: UIControlState())
         }
     }
     
@@ -78,18 +79,18 @@ class CameraViewController: UIViewController, FilterDisplayViewControllerDelegat
         // Dispose of any resources that can be recreated.
     }
     
-    override func shouldAutorotate() -> Bool {
+    override var shouldAutorotate : Bool {
         return false
     }
     
     @IBAction func takePicture()
     {
-        if shutterButton.tintColor != UIColor.redColor()
+        if shutterButton.tintColor != UIColor.red
         {
-            shutterButton.tintColor = UIColor.redColor()
+            shutterButton.tintColor = UIColor.red
             var error: NSError?
             do {
-                audioPlayer = try AVAudioPlayer(contentsOfURL: NSBundle.mainBundle().URLForResource(NSUserDefaults.standardUserDefaults().stringForKey("soundName")!, withExtension: "wav")!)
+                audioPlayer = try AVAudioPlayer(contentsOf: Bundle.main.url(forResource: UserDefaults.standard.string(forKey: "soundName")!, withExtension: "wav")!)
             } catch let error1 as NSError {
                 error = error1
                 audioPlayer = nil
@@ -102,30 +103,30 @@ class CameraViewController: UIViewController, FilterDisplayViewControllerDelegat
         }
         else
         {
-            shutterButton.tintColor = UIColor.whiteColor()
+            shutterButton.tintColor = UIColor.white
             audioPlayer.stop()
             
             if filterCount == 1
             {
-                camera.capturePhotoAsImageProcessedUpToFilter(filter, withCompletionHandler: { (image, captureError) -> Void in
-                    self.performSegueWithIdentifier("ID_CAMERA_PREVIEW", sender: image)
-                    self.camera.pauseCameraCapture()
+                camera.capturePhotoAsImageProcessedUp(toFilter: filter, withCompletionHandler: { (image, captureError) -> Void in
+                    self.performSegue(withIdentifier: "ID_CAMERA_PREVIEW", sender: image)
+                    self.camera.pauseCapture()
                 })
             }
             else
             {
-                camera.capturePhotoAsImageProcessedUpToFilter(filter.targets()[filter.targets().count - 1] as? GPUImageOutput, withCompletionHandler: { (image, captureError) -> Void in
-                    self.performSegueWithIdentifier("ID_CAMERA_PREVIEW", sender: image)
-                    self.camera.pauseCameraCapture()
+                camera.capturePhotoAsImageProcessedUp(toFilter: filter.targets()[filter.targets().count - 1] as? GPUImageOutput, withCompletionHandler: { (image, captureError) -> Void in
+                    self.performSegue(withIdentifier: "ID_CAMERA_PREVIEW", sender: image)
+                    self.camera.pauseCapture()
                 })
             }
         }
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ID_CAMERA_PREVIEW"
         {
-            let cameraPreviewController = segue.destinationViewController as! CameraPreviewController
+            let cameraPreviewController = segue.destination as! CameraPreviewController
             cameraPreviewController.imgPhoto = sender as? UIImage
         }
     }
@@ -144,15 +145,15 @@ class CameraViewController: UIViewController, FilterDisplayViewControllerDelegat
             {
                 switch camera.inputCamera.flashMode
                 {
-                case AVCaptureFlashMode.On:
-                    camera.inputCamera.flashMode = AVCaptureFlashMode.Auto
-                    flashButton.setTitle("Auto", forState: UIControlState.Normal)
-                case AVCaptureFlashMode.Auto:
-                    camera.inputCamera.flashMode = AVCaptureFlashMode.Off
-                    flashButton.setTitle("Off", forState: UIControlState.Normal)
-                case AVCaptureFlashMode.Off:
-                    camera.inputCamera.flashMode = AVCaptureFlashMode.On
-                    flashButton.setTitle("On", forState: UIControlState.Normal)
+                case AVCaptureFlashMode.on:
+                    camera.inputCamera.flashMode = AVCaptureFlashMode.auto
+                    flashButton.setTitle("Auto", for: UIControlState())
+                case AVCaptureFlashMode.auto:
+                    camera.inputCamera.flashMode = AVCaptureFlashMode.off
+                    flashButton.setTitle("Off", for: UIControlState())
+                case AVCaptureFlashMode.off:
+                    camera.inputCamera.flashMode = AVCaptureFlashMode.on
+                    flashButton.setTitle("On", for: UIControlState())
                 }
             }
             camera.inputCamera.unlockForConfiguration()
@@ -165,12 +166,12 @@ class CameraViewController: UIViewController, FilterDisplayViewControllerDelegat
     
     @IBAction func switchCameraDevice()
     {
-        if (camera.cameraPosition() == AVCaptureDevicePosition.Back && camera.frontFacingCameraPresent)
+        if (camera.cameraPosition() == AVCaptureDevicePosition.back && camera.isFrontFacingCameraPresent)
         {
             camera.captureSession.beginConfiguration()
             
             //Get the best preset we can for the front camera
-            let frontCamera = self.getCamera(AVCaptureDevicePosition.Front)
+            let frontCamera = self.getCamera(AVCaptureDevicePosition.front)
             
             if frontCamera?.supportsAVCaptureSessionPreset(AVCaptureSessionPresetPhoto) == true
             {
@@ -193,7 +194,7 @@ class CameraViewController: UIViewController, FilterDisplayViewControllerDelegat
             camera.rotateCamera()
             self.setupFlash()
         }
-        else if (camera.cameraPosition() == AVCaptureDevicePosition.Front && camera.backFacingCameraPresent)
+        else if (camera.cameraPosition() == AVCaptureDevicePosition.front && camera.isBackFacingCameraPresent)
         {
             camera.rotateCamera()
             camera.captureSession.beginConfiguration()
@@ -207,23 +208,23 @@ class CameraViewController: UIViewController, FilterDisplayViewControllerDelegat
     
     @IBAction func cancel()
     {
-        self.navigationController?.popViewControllerAnimated(true)
+        self.navigationController?.popViewController(animated: true)
     }
     
     @IBAction func changeSound()
     {
-        let soundSelection = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle()).instantiateViewControllerWithIdentifier("ID_CHANGE_SOUND") as! SoundSelectionViewController
-        self.presentViewController(soundSelection, animated: true, completion: nil)
+        let soundSelection = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ID_CHANGE_SOUND") as! SoundSelectionViewController
+        self.present(soundSelection, animated: true, completion: nil)
     }
     
     @IBAction func showFilters() {
-        let filterDisplay = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle()).instantiateViewControllerWithIdentifier("ID_FILTER_DISPLAY") as! FilterDisplayViewController
+        let filterDisplay = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ID_FILTER_DISPLAY") as! FilterDisplayViewController
         filterDisplay.delegate = self
         filterDisplay.camera = camera
-        self.presentViewController(filterDisplay, animated: true, completion: nil)
+        self.present(filterDisplay, animated: true, completion: nil)
     }
     
-    func didFinishSelectingFilter(isClearFilter: Bool, selectedFilter: GPUImageOutput) -> Void
+    func didFinishSelectingFilter(_ isClearFilter: Bool, selectedFilter: GPUImageOutput) -> Void
     {
         if isClearFilter
         {
@@ -261,8 +262,8 @@ class CameraViewController: UIViewController, FilterDisplayViewControllerDelegat
     }
     
     
-    func getCamera(position: AVCaptureDevicePosition) -> AVCaptureDevice? {
-        for captureDevice in AVCaptureDevice.devicesWithMediaType(AVMediaTypeVideo)
+    func getCamera(_ position: AVCaptureDevicePosition) -> AVCaptureDevice? {
+        for captureDevice in AVCaptureDevice.devices(withMediaType: AVMediaTypeVideo)
         {
             let device = captureDevice as! AVCaptureDevice
             if device.position == position

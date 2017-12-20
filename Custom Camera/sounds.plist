@@ -2,14 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>beep</string>
-	<string>beep beep</string>
-	<string>beep computer</string>
-	<string>beep digital</string>
+	<string>Dogs Barking</string>
+	<string>High Pitch</string>
+	<string>Neighborhood Dogs Barking</string>
+	<string>Special Noise</string>
 	<string>beep high</string>
 	<string>beep ping</string>
 	<string>double horn</string>
 	<string>pap</string>
 	<string>twink</string>
+	<string></string>
 </array>
 </plist>
